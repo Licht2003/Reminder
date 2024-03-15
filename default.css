@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(223, 211, 194);
+}
+
+
+h1 {
+   
+    order: 1;
+    margin-left: 60px;
+}
+
+pre {
+    order: 3;
+    text-decoration:solid;
+    font-size: 15px;
+}
+
+img {
+    margin-left: 10px;
+    width: 450px; 
+    height:280px;
+    border-radius: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.image-container {
+    width: 10px;
+    height: 5px;
+    margin-left: 1329px;
+    margin-bottom: -89px;
+    margin-top: -1352px;
+    order: 2;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+audio {
+    margin-left: 1412px;
+    margin-bottom: 939px;
+    margin-top: -1688px;
+    
+}
+
